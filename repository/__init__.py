@@ -1,0 +1,5 @@
+from .consulta_historico_id_repository import consulta_historico_id_repository
+from .consulta_historico_city_repository import histocorico_city_repository
+from .consulta_historico_lat_lon_repository import consulta_historico_lat_lon_repository
+from .consulta_historico_repository import consulta_historico_repository
+from .get_repository import get_repository

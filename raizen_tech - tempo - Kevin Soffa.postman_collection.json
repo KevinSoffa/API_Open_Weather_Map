@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "172dad94-24a2-40cf-9cc0-0b65f092bfcc",
+		"name": "ACT - Tempo / Kevin Soffa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?lat=-23.413&lon=-46.4445&appid=8085e1da8e294d0fc9841d79112e41d9",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-23.413"
+						},
+						{
+							"key": "lon",
+							"value": "-46.4445"
+						},
+						{
+							"key": "appid",
+							"value": "8085e1da8e294d0fc9841d79112e41d9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/kevin?lat=-23.5489&lon=-46.6388&api_key=8085e1da8e294d0fc9841d79112e41d9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"kevin"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-23.5489"
+						},
+						{
+							"key": "lon",
+							"value": "-46.6388"
+						},
+						{
+							"key": "api_key",
+							"value": "8085e1da8e294d0fc9841d79112e41d9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL Histórico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/kevin/historico",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"kevin",
+						"historico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/kevin/historico/6577404bb0cea08c0daed9f9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"kevin",
+						"historico",
+						"6577404bb0cea08c0daed9f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET CITY",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/kevin/historico/city/Guarulhos",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"kevin",
+						"historico",
+						"city",
+						"Guarulhos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET LAT e LON",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/kevin/historico/lat/-23.5489/lon/-46.6388",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"kevin",
+						"historico",
+						"lat",
+						"-23.5489",
+						"lon",
+						"-46.6388"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

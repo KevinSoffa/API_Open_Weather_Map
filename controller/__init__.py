@@ -1,0 +1,6 @@
+from .consulta_historico_lat_lon_controller import consulta_historico_lat_lon_controller
+from .consulta_historico_city_controller import consulta_historico_city_controller
+from .consulta_historico_id_controller import consulta_historico_id_controller
+from .consulta_historico_controller import consulta_historico_controller
+from .get_controller import get_controller
+from .router import router

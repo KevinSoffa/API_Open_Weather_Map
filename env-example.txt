@@ -1,0 +1,7 @@
+CORS_ALLOWED=*
+
+PREFIXO=/kevin
+
+MONGO_URL=mongodb://localhost:27017/
+
+MONGO_DB=raizen_tech
