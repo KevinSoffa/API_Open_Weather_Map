@@ -1,4 +1,4 @@
-# Teste Técnico RaizenTech - Kevin Soffa
+# Open Weather Map - Kevin Soffa
 
 Este projeto consiste na criação de uma API REST em Python/FastAPI que fornece dados da previsão do tempo para os próximos cinco dias. Após consumir a API da Open Weather Map, o histórico das consultas é armazenado em um banco de dados MongoDB para consultas futuras.
 
